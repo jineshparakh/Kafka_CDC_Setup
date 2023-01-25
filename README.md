@@ -20,10 +20,10 @@ Test deduplication in Couchbase records using Kafka
 
 ### Preparation
 
-**a. Have Zookeeper and Kafka Server installed**
-**b. Start Couchbase Server**
-**c. Create a bucket called *Source* using Magma as the storage engine**
-**d. Under the __default scope, create a collection called inputCollection**
+**a. Have Zookeeper and Kafka Server installed**<br>
+**b. Start Couchbase Server**<br>
+**c. Create a bucket called *Source* using Magma as the storage engine**<br>
+**d. Under the __default scope, create a collection called inputCollection**<br>
 
 ### Running the script
 **a. Clone the repository (Otherwise you can also download the zip file of the repository)**
