@@ -2,12 +2,12 @@ from couchbase.cluster import Cluster
 from couchbase.auth import PasswordAuthenticator
 from couchbase.options import (ClusterOptions)
 from datetime import timedelta
-
+import const
 
 def upsertRecords(n):
     # Update this to your cluster
-    username = "Administrator"
-    password = "password"
+    username = const.COUCHBASE_USERNAME
+    password = const.COUCHBASE_PASSWORD
     bucket_name = "source"
     scope_name = "_default"
     collection_name = "inputCollection"
